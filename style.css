@@ -61,8 +61,7 @@ button{
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-.main_label {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -95,8 +94,13 @@ h3,
   margin: 0 0 20px;
 }
 #main__new_task {
+  margin-top: 20px;
   width: 318px;
 }
+#button__add {
+    margin-top: 20px;
+}
+  
 
 /* Task list */
 .main__list {
