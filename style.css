@@ -18,9 +18,9 @@
 }
 
 @media (max-width:768px) {
-.header { 
-  text-align: center;
-}
+  .header { 
+    text-align: center;
+  }
 }
 .main {
   display: block;
@@ -81,7 +81,6 @@ h3,
   font-family: lato, sans-serif;
   color: #888;
   width: 226px;
-
 }
 
 .input__text:focus {
@@ -136,10 +135,10 @@ h3,
 /* Edit Task */
 
 .input__hidden {
-    display:none;
+  display:none;
 }
 .main__task_edit > .input__text {
-    display:inline-block;
-    width:224px
+  display:inline-block;
+  width:224px
 }
 
