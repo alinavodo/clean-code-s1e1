@@ -37,14 +37,14 @@
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -135,10 +135,10 @@ h3,
 /* Edit Task */
 
 .input__hidden {
-  display:none;
+  display: none;
 }
 .main__task_edit > .input__text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
