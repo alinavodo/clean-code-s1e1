@@ -49,7 +49,7 @@ var createNewTaskElement=function(taskString){
     deleteButton.className="button button__delete";
     deleteButtonImg.src="./remove.svg";
     deleteButton.appendChild(deleteButtonImg);
-
+    deleteButtonImg.className="button__delete_image ";
 
     //and appending.
     listItem.appendChild(checkBox);
@@ -101,7 +101,7 @@ var editTask=function(){
         editInput.value=label.innerText;
         editBtn.innerText="Save";
     }
-
+    label.classList.toggle("lable__hidden");
     //toggle .editmode on the parent.
     listItem.classList.toggle("main__task_edit");
 };

@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.header img {
+.header__image {
   width: 100%;
 }
-.header .header__link {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -40,10 +40,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .button {
@@ -117,12 +119,12 @@ h3,
   width: 226px;
 }
 
-.button__delete img {
+.button__delete_image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button__delete img:hover {
+.button__delete_image:hover {
   transform: rotateZ(0);
 }
 
@@ -140,5 +142,9 @@ h3,
 .main__task_edit > .input__text {
   display: inline-block;
   width: 224px;
+}
+
+.lable__hidden {
+  display:none;
 }
 
